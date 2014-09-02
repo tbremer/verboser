@@ -1,0 +1,33 @@
+{
+  "name": "verboser",
+  "version": "0.0.1",
+  "description": "Simple verbose console logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tbremer/verboser.git"
+  },
+  "keywords": [
+    "log",
+    "logging",
+    "logger",
+    "console",
+    "verbose"
+  ],
+  "author": "Thomas Bremer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbremer/verboser/issues"
+  },
+  "homepage": "https://github.com/tbremer/verboser",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "nopt": "^3.0.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.5"
+  }
+}
