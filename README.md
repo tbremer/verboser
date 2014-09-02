@@ -6,6 +6,9 @@ Simple predictable verbose logging for Node modules
 ## API
 *Currently all assumptions are that you are sending a user a string. Hoping to add support for Arrays and Key:Value pairs in the near future.*
 
+#### .force()
+Forces verbose output -- this is useful for CLI type modules where you don't want the user to have to pass `-v` or `--verbose`
+
 #### .log('Hello World')
 Prints a cyan message to the user.
 

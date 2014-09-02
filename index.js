@@ -16,6 +16,11 @@ module.exports = {
 		}
 	},
 
+	// Force verbose output if user hasn't supplied the option.
+	force: function () {
+		args.verbose = true;
+	},
+
 	// verbose.log
 	log: function (string) {
 		if (args.verbose && typeof string === "string") {
