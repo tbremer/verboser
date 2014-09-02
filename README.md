@@ -1,10 +1,11 @@
 # VERBOSER
-Simple predictable verbose logging for Node modules
+Simple, predictable and chainable verbose logging for Node modules
 
 *If you ever need a repeatable predictable way to send information to the users of your Node Package and don't want to write out a check for `--verbose` or `-v`*
 
 ## API
 *Currently all assumptions are that you are sending either a `String` or `Array`. Hoping to add support for Key:Value pairs in the near future.*
+**All parts of the API and be chained for high functionality**
 
 #### .force()
 Forces verbose output -- this is useful for CLI type modules where you don't want the user to have to pass `-v` or `--verbose`
