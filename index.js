@@ -57,7 +57,9 @@ module.exports = {
 	},
 
 	linebreak: function () {
-		console.log();
+		if (args.verbose) {
+			console.log();
+		}
 		return this;
 	},
 
