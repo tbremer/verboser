@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/tbremer/verboser",
   "dependencies": {
-    "chalk": "^0.5.1",
+    "chalk": "^1.0.0",
     "nopt": "^3.0.1"
   },
   "devDependencies": {
