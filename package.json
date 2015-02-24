@@ -1,6 +1,6 @@
 {
   "name": "verboser",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Simple verbose console logger",
   "main": "index.js",
   "scripts": {

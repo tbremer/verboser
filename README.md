@@ -1,6 +1,10 @@
 # VERBOSER
 Simple, predictable and chainable verbose logging for Node modules
 
+[![Version](https://img.shields.io/npm/v/verboser.svg?style=flat-square)](https://www.npmjs.com/package/verboser)
+[![NPM Downloads](https://img.shields.io/npm/dm/verboser.svg?style=flat-square)](https://www.npmjs.com/package/verboser)
+[![LICENSE](https://img.shields.io/npm/l/verboser.svg?style=flat-square)](https://github.com/tbremer/verboser/blob/master/LICENSE)
+
 *If you ever need a repeatable predictable way to send information to the users of your Node Package and don't want to write out a check for `--verbose` or `-v`*
 
 ## API
